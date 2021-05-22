@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_pr2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.My_pr2">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutActivity"
+            android:label="@string/Ab_t"/>
+        <activity android:name=".TableActivity"
+            android:label="@string/Table_t"/>
+        <activity android:name=".CatActivity"
+            android:label="@string/cat_activity"/>
+        <activity android:name=".TestActivityMin"
+            android:label="@string/minecraft_text"/>
+        <activity android:name=".TestActivityPhy"
+            android:label="@string/physics_text"/>
+        <activity android:name=".TestActivityDoom"
+            android:label="@string/doom_test"/>
+        <activity android:name=".TestActivityHistory_game"
+            android:label="@string/history_games"/>
+        <activity android:name=".TestActivityHalf"
+            android:label="@string/Half_life"/>
+        <activity android:name=".GameActivity"
+            android:label="@string/game_name"/>
+        <activity android:name=".TestActivityQue"
+            android:label="@string/question"/>
+    </application>
+
+</manifest>

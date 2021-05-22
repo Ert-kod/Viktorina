@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Викторина</string>
+    <string name="St_t">Выбор темы вопросов</string>
+    <string name="Ab_t">О приложения</string>
+    <string name="Table_t">Таблица результатов</string>
+    <string name="name_table">Таблица результатов</string>
+    <string name="cat_activity">Выберите категорию</string>
+    <string name="none_result">Нет результата</string>
+    <string name="physics_text">Физика</string>
+    <string name="minecraft_text">Майнкрафт</string>
+    <string name="doom_test">DOOM</string>
+    <string name="history_games">История игровой индустрии</string>
+    <string name="clear_table">Очистить таблицу результатов</string>
+    <string name="Half_life">Half life</string>
+    <string name="game_restart">Заново</string>
+    <string name="game_name">Игра</string>
+    <string name="question">Вопрос на любую тему</string>
+
+</resources>
